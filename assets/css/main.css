@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Aller;
+    src: url(../fonts/Aller_Bd.woff);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Alfa;
+    src: url(../fonts/AlfaSlabOne-Regular.woff);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Berk;
+    src: url(../fonts/BerkshireSwash-Regular.woff);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Hotel;
+    src: url(../fonts/GrandHotel-Regular.woff);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Lily;
+    src: url(../fonts/LilyScriptOne-Regular.woff);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico-Regular.woff);
+    font-weight: bold;
+    font-style: normal;
+}
+body,
+html {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#top-image {
+    background-image: url(../images/img/background7.jpg);
+    background-position: center;
+    background-size: auto;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 0;
+    transition: 0.1s;
+}
+#top-image-cloud1{
+    background-image: url(../images/img/clouds/cloud2.png);
+    background-position:800px 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    transition: 0.1s;
+}
+#top-image-cloud3{
+    background-image: url(../images/img/clouds/cloud3.png);
+    background-position: left;
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index:1;
+    transition: 0.1s;
+}
