@@ -41,6 +41,20 @@ html {
     padding: 0;
     overflow: hidden;
 }
+.interface{
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.mobile-interface{
+    margin: 22vh auto;
+    text-align: center;
+    width: 250px;
+    height: 500px;
+    border-radius: 35px;
+    box-shadow: 0px 0px 20px 11px rgba(0, 0, 0, 0.32);
+    background-color: white;
+}
 #top-image {
     background-image: url(../images/img/background7.jpg);
     background-position: center;
@@ -71,6 +85,5 @@ html {
     height: 100%;
     width: 100%;
     top: 0;
-    z-index:1;
     transition: 0.1s;
 }

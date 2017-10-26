@@ -23,4 +23,17 @@ $(document).ready(function () {
         $('#top-image-cloud1').css("background-position", (750+mPointX) + "px  " + (mPointY+300) + "px");
 
     });
+    $(".mobile-interface").mousemove(function (e){
+         e.stopPropagation();
+    });
+    
+    $(".mobile-interface").mouseenter(function (e){
+        $('#top-image').css("transition", "0.5s");
+        $('#top-image').css("transform", "scale(1.5)");
+    })
+    $(".mobile-interface").mouseleave(function (e){
+        
+        $('#top-image').css("transform", "scale(1)");
+        $('#top-image').css("transition", "0.1s");
+    });
 });
