@@ -39,21 +39,65 @@ html {
     background-color: #ffffff;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+/*    overflow: hidden;*/
 }
-.interface{
+.interface {
     margin: 0 auto;
     text-align: center;
     position: relative;
 }
-.mobile-interface{
-    margin: 22vh auto;
+.mobile-interface {
+/*    margin: 22vh auto;*/
+    top: 22vh;
+    left: 43vw;
     text-align: center;
     width: 250px;
     height: 500px;
     border-radius: 35px;
     box-shadow: 0px 0px 20px 11px rgba(0, 0, 0, 0.32);
     background-color: white;
+    position: absolute;
+    z-index: 5;
+}
+.animate{
+    animation: scale 0.3s cubic-bezier(.7,.09,1,.25);
+}
+.mobile-interface2 {
+    margin: 22vh auto;
+    left: 43vw;
+    text-align: center;
+    width: 250px;
+    height: 500px;
+    border-radius: 35px;
+    /*    box-shadow: 0px 0px 20px 11px rgba(0, 0, 0, 0.32);*/
+    background-color: white;
+    position: absolute;
+    transition: 0.5s;
+    z-index: 4;
+}
+.mobile-interface3 {
+    margin: 22vh auto;
+    left: 43vw;
+    text-align: center;
+    width: 250px;
+    height: 500px;
+    border-radius: 35px;
+    /*    box-shadow: 0px 0px 20px 11px rgba(0, 0, 0, 0.32);*/
+    background-color: white;
+    position: absolute;
+    transition: 0.5s;
+    z-index: 3;
+}
+@keyframes scale {
+    0% {
+        transform: scale(1)
+    }
+    50% {
+        transform: scale(1.2)
+    }
+    100% {
+        transform: scale(1)
+    }
 }
 #top-image {
     background-image: url(../images/img/background7.jpg);
@@ -66,9 +110,9 @@ html {
     z-index: 0;
     transition: 0.1s;
 }
-#top-image-cloud1{
+#top-image-cloud1 {
     background-image: url(../images/img/clouds/cloud2.png);
-    background-position:800px 350px;
+    background-position: 800px 350px;
     background-size: contain;
     background-repeat: no-repeat;
     position: fixed;
@@ -76,7 +120,7 @@ html {
     width: 100%;
     transition: 0.1s;
 }
-#top-image-cloud3{
+#top-image-cloud3 {
     background-image: url(../images/img/clouds/cloud3.png);
     background-position: left;
     background-size: auto;
