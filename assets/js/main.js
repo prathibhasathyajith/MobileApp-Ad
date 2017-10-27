@@ -29,12 +29,12 @@ $(document).ready(function () {
         setTimeout(function () {
             $(".mobile-interface2").css("box-shadow", "0px 0px 20px 11px rgba(0, 0, 0, 0.32)");
             $(".mobile-interface2").css("left", "25vw");
-        }, 300);
+        }, 400);
 
         setTimeout(function () {
             $(".mobile-interface3").css("box-shadow", "0px 0px 20px 11px rgba(0, 0, 0, 0.32)");
             $(".mobile-interface3").css("left", "61vw");
-        }, 300);
+        }, 400);
     });
     
     $(".mobile-interface").mousemove(function (e) {
