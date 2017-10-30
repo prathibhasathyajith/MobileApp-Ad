@@ -25,27 +25,33 @@ $(document).ready(function () {
     });
     $(".mobile-interface").click(function () {
         $(".mobile-interface").addClass("animate");
+        
+        var snd = new Audio("assets/sound/punch.m4a"); // buffers automatically when created
+        snd.play();
+        
         //        $(".mobile-interface").animate({transform: "scale(1)"},"slow");
         setTimeout(function () {
             $(".mobile-interface2").css("box-shadow", "0px 0px 20px 11px rgba(0, 0, 0, 0.32)");
             $(".mobile-interface2").css("left", "25vw");
-        }, 400);
+        }, 650);
 
         setTimeout(function () {
             $(".mobile-interface3").css("box-shadow", "0px 0px 20px 11px rgba(0, 0, 0, 0.32)");
             $(".mobile-interface3").css("left", "61vw");
-        }, 400);
+        }, 650);
     });
-    
+
     $(".mobile-interface").mousemove(function (e) {
         e.stopPropagation();
     });
-//    $(".mobile-interface").mouseenter(function (e) {
-//        $('#top-image').css("transition", "0.5s");
-//        $('#top-image').css("transform", "scale(1.5)");
-//    })
+    //    $(".mobile-interface").mouseenter(function (e) {
+    //        $('#top-image').css("transition", "0.5s");
+    //        $('#top-image').css("transform", "scale(1.5)");
+    //    })
     $(".mobile-interface").mouseleave(function (e) {
         $('#top-image').css("transform", "scale(1)");
         $('#top-image').css("transition", "0.1s");
     });
+
+
 });

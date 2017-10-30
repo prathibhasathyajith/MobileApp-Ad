@@ -61,7 +61,7 @@ html {
     transform: scale(1);
 }
 .animate{
-    animation: scale 0.4s cubic-bezier(1,1,.83,.02);
+    animation: scale 0.65s cubic-bezier(1,1,.83,.02);
 }
 .mobile-interface2 {
     margin: 22vh auto;
