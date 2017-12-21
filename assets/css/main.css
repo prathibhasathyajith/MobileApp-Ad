@@ -93,7 +93,7 @@ html {
     }
 }
 #top-image {
-    background-image: url(../images/img/background7.jpg);
+    background-image: url(../images/img/ter.png);
     background-position: center;
     background-size: auto;
     position: fixed;
@@ -101,6 +101,7 @@ html {
     width: 100%;
     top: 0;
     z-index: 0;
+    background-color: cadetblue;
     transition: 0.1s;
 }
 #top-image-cloud1 {
